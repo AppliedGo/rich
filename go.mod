@@ -1,4 +1,4 @@
-module github.com/christophberger/playground/rich
+module github.com/appliedgo/rich
 
 go 1.16
 
