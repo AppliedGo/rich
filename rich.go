@@ -272,14 +272,14 @@ However, it is more fun to play with the code. To do this, clone the project to
 your disk and run it locally:
 
 ```sh
-git clone github.com/appliedgo/rich
+git clone https://github.com/appliedgo/rich
 ```
 
 Then `cd` into the source code directory, get the dependencies, tweak the code as you like, and run it:
 
 ```sh
 cd $GOPATH/src/github.com/appliedgo/rich
-go run main.go
+go run rich.go
 ```
 
 *(If you get errors about missing dependencies, ensure your Go environment is in Go Modules mode and run `go mod tidy` or `go mod download`.)*
