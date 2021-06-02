@@ -278,7 +278,7 @@ git clone https://github.com/appliedgo/rich
 Then `cd` into the source code directory, get the dependencies, tweak the code as you like, and run it:
 
 ```sh
-cd $GOPATH/src/github.com/appliedgo/rich
+cd rich
 go run rich.go
 ```
 
