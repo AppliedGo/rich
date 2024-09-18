@@ -92,7 +92,7 @@ Then, the trade takes place. We need to determine which of the two agents is the
 
 This is all it needs. Except that we still need to visualize the result! No good simulation without a visualization.
 
-I could go for a graph library like gonum's `plot` package, and plot a wealth distribution histogram at the end of the simulation. But I really would prefer to see some live output while the simulation runs. And I want a package that is super easy to implement and does not inflate the code unnecessarily. I remembered the article about [Text-Based User Interfaces]({{< ref "/tui/" >}}) that I wrote a while ago, and from the TUI packages I tested back then, I picked `termui`. It provides a bar chart widget out of the box and can be set up with a few lines of code.
+I could go for a graph library like gonum's `plot` package, and plot a wealth distribution histogram at the end of the simulation. But I really would prefer to see some live output while the simulation runs. And I want a package that is super easy to implement and does not inflate the code unnecessarily. I remembered the article about [Text-Based User Interfaces]({{< ref "/post/tui/" >}}) that I wrote a while ago, and from the TUI packages I tested back then, I picked `termui`. It provides a bar chart widget out of the box and can be set up with a few lines of code.
 
 ![Bar chart during simulation](barchart1.png)
 
